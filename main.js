@@ -4,7 +4,7 @@ const factorial = (num) =>{
         val = val * i;
     return val;
 }
-const euler = () =>{
+const eulerApproximation = () =>{
     let number = 0;
 
     for (let i = 0; i < 100; i++) {
@@ -13,7 +13,7 @@ const euler = () =>{
     return "Tú aproximación es " + number + ". El resultado real es " + Math.E;
 }
 
-const infSeries = () =>{
+const piApproximation = () =>{
     let number = 4;
 
     for (let i = 3; i < 203; i+=2) {
