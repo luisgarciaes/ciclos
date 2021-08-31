@@ -16,11 +16,10 @@ const euler = () =>{
 const infSeries = () =>{
     let number = 4;
 
-    for (let i = 3; i < 3000; i+=2) {
+    for (let i = 3; i < 203; i+=2) {
         number -= 4/i; 
         i+=2 
         number += 4/i; 
-        console.log(number)
     }
 
     return "Tú aproximación es " + number + ". El resultado real es " + Math.PI;
