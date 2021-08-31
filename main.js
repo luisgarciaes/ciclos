@@ -1,8 +1,8 @@
 const factorial = (num) =>{
-    var rval=1;
+    let val=1;
     for (var i = 2; i <= num; i++)
-        rval = rval * i;
-    return rval;
+        val = val * i;
+    return val;
 }
 const euler = () =>{
     let number = 0;
